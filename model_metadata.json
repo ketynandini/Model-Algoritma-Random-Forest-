@@ -1,0 +1,54 @@
+{
+    "feature_names": [
+        "Temperature",
+        "Rainfall",
+        "pH",
+        "Light_Hours",
+        "Light_Intensity",
+        "Rh",
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Name",
+        "Fertility",
+        "Photoperiod",
+        "Category_pH",
+        "Soil_Type",
+        "Season"
+    ],
+    "target_name": "Yield",
+    "model_performance": {
+        "rmse": 1.1545614357465155,
+        "r2": 0.9943873603439266,
+        "mae": 0.6395047006662964
+    },
+    "best_parameters": {
+        "numTrees": 100,
+        "maxDepth": 10,
+        "minInstancesPerNode": 1
+    },
+    "feature_importance": {
+        "features": [
+            "Rainfall",
+            "Phosphorus",
+            "Light_Hours",
+            "Rh",
+            "Potassium",
+            "Nitrogen",
+            "Temperature",
+            "Light_Intensity",
+            "pH"
+        ],
+        "importance_scores": [
+            0.21961986822895477,
+            0.16781922575694694,
+            0.13504984048967825,
+            0.11209129467890007,
+            0.11197512615450891,
+            0.10553605499622566,
+            0.06275092343305982,
+            0.05730622313135034,
+            0.027851443130375266
+        ]
+    }
+}
